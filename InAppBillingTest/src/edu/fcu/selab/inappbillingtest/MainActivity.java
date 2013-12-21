@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
 		btn4 = (Button) findViewById(R.id.button4);
 		
 		//Google Play Developer Console 產生的 public license key
-		String base64EncodedPublicKey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj11WmafKWVBNBLu1IFVB6GQhEO8+TZlkjEqkZZuvbfqTNw2CHlB74z4NMIsJZGY/X5lBlzVerT9BLSC3zu0o0kpyh0y3RptNywMv6vdW8L5CrQQ8IjbsOL40tZhtEuO4nqmQe4JM+NmpIfmz5uIMwtiok9afN2uv8ElAlE+EEipC4WKYfMQr0TIroJoNSoPwzdX+jRK38BgjziEGenDBjA9voOSUeFDDWzIPD85caXr2XoBj6D+c9SCeQe6z9d6jtnfkv2Fw87jlEtHT7q6vITcwbIXPtukDtClJtsT7E3JU1Vu8cew9SIY6RbtZBq5DHmQVF1PjS0gfTrirr0ItrwIDAQAB";
+		String base64EncodedPublicKey = "Put public license key here!";
 		mHelper = new IabHelper(this, base64EncodedPublicKey);
 		mHelper.startSetup(new IabHelper.OnIabSetupFinishedListener() {
 			@Override //初始化
